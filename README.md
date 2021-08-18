@@ -9,6 +9,8 @@ localhost:80
 `php artisan ui vue`
 - パッケージインストール  
 `npm install`  
+- vue routerインストール  
+`npm install --save vue-router`  
 - ビルドする  
 `npm run dev`  (コンパイルされたjs、cssが/public/js public/cssに出力される。)  
 この後実装するHTMLファイルでは、このコンパイルされたjs、cssを読み込むことになる。  
