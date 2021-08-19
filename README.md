@@ -18,8 +18,21 @@ localhost:80
 - エラーの場合  
 webpack.mix.jsを修正  
 
+- memo  
+`router-link v-bind:to`  
+<route-link> の v-bind:to でリンク先のルーティング名を設定することで、SPAのリンクとして動作させる
+
 - ブランチ管理  
   - master
   - initial_environment(初期状態、laravel・vue環境なし)
   - environment(laravel・vueインストール済み)
-  - master
+  - work(作業用)
+
+- Todo
+  - APIの認証処理(Laravel)
+  - バリデーション(Laravel)
+  - ajaxのエラーハンドリング(Vue)
+  - ApI送信前のバリデーション(Vue)
+
+(アプリ参考)[https://qiita.com/minato-naka/items/2d2def4d66ec88dc3ca2]
+(環境構築参考)[https://yutaro-blog.net/2021/04/28/docker-laravel-vuejs-1/]
